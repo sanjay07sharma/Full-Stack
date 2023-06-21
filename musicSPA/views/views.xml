@@ -1,0 +1,13 @@
+<odoo>
+  <data>
+        <record id="music_player_new_action" model="ir.actions.client">
+          <field name="name">Music Player Action</field>
+          <field name="tag">music_player_component_action</field>
+      </record>
+      <menuitem id="music_player_root"
+          name="Music Player"
+          action="music_player_new_action"
+          sequence="30"/>
+  </data>
+</odoo>
+
